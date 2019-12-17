@@ -24,9 +24,9 @@
     scheme: 'Gemini',
     version: '7.6.0',
     exturl: false,
-    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
+    sidebar: {"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
@@ -47,9 +47,9 @@
 </script>
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Yorg&#39;s Blog">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;archives&#x2F;2019&#x2F;index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Yorg&#39;s Blog">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Yorg">
 <meta name="twitter:card" content="summary">
@@ -66,7 +66,7 @@
   };
 </script>
 
-  <title>归档 | Hexo</title>
+  <title>归档 | Yorg's Blog</title>
   
 
 
@@ -110,10 +110,11 @@
     <div>
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">Yorg's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+        <p class="site-subtitle">a frontend noob</p>
   </div>
 
   <div class="site-nav-toggle">
@@ -146,10 +147,7 @@
     </header>
 
     
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+  <div class="reading-progress-bar"></div>
 
 
     <main class="main">
@@ -179,7 +177,7 @@
 
       <div class="post-meta">
         <time itemprop="dateCreated"
-              datetime="2019-12-17T13:44:46+00:00"
+              datetime="2019-12-17T16:27:50+00:00"
               content="2019-12-17">
           12-17
         </time>
@@ -258,6 +256,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Yorg"
+      src="/images/avatar.gif">
   <p class="site-author-name" itemprop="name">Yorg</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -272,10 +272,19 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:yorg@foxmail.com" title="E-Mail → mailto:yorg@foxmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
       </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
 
     </div>
   </aside>
@@ -294,7 +303,7 @@
   &copy; 
   <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Yorg</span>
 </div>
